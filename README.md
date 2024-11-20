@@ -31,6 +31,13 @@ Automatically syncs WHMCS client data to HighLevel CRM when an order is paid. In
   - Paste the key into the **HighLevel API Key** field in the addon configuration.
   - Save your settings.
 
+### **4. Create the "whmcs order" Tag in HighLevel**
+To ensure synced contacts are tagged correctly:
+1. Log in to your HighLevel account.
+2. Go to **Settings > Tags**.
+3. Click **Add Tag** and create a tag named `whmcs order`.
+4. Save the tag.
+
 ---
 
 ## Important Notes
@@ -88,3 +95,4 @@ This project is licensed under the MIT License.
 ---
 
 **Developed by Average Joe's Hosting LLC**
+
